@@ -7,6 +7,7 @@
   overflow: visible;
   height: auto;
   border: double;
+
 }
 
 .topnav li {
@@ -21,6 +22,9 @@ ul {
   overflow: auto;
   background: rgba(251, 231, 218, 0.81);
   border: double;
+  position: fixed;
+  top: 0;
+  width: 1500;
 }
 
 .topnav li a {
@@ -39,6 +43,7 @@ ul {
 
 /*background image*/
 body {
+  padding-top: 50px;
   background-image: url("images/propercup.jpg");
   background-repeat: no-repeat;
   background-size: cover;

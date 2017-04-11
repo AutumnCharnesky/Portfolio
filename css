@@ -1,12 +1,14 @@
 <!DOCKTYPE css>
 
 <css>
+
+@media screen and (max-width: 1024px) {
+
+}
 /* topnav content */
 .topnav {
-  background-color: rgba(159, 67, 9, 0.81);
-  overflow: visible;
+  overflow: hidden;
   height: auto;
-  border: double;
 
 }
 
@@ -82,6 +84,9 @@ body {
   float: left;
 }
 
+<link rel="stylesheet" type="text/css" href="media1.css" media="screen" />
+
+<link rel="stylesheet" type="text/css" href="media2.css" media="screen" />
 
 
 </css>

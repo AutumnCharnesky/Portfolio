@@ -1,0 +1,8 @@
+<!DOCKTYPE css>
+
+<css>
+
+@media screen and (max-width: 480px) {
+ // Yay styles
+ background-color: orange;
+}

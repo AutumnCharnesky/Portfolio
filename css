@@ -1,0 +1,47 @@
+<!DOCKTYPE css>
+
+.topnav {
+  background-color: rgb(191, 128, 64);
+  overflow: visible;
+  height: auto;
+}
+
+.topnav li {
+  display: inline;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: inherit;
+  overflow: auto;
+  background: orange;
+}
+
+.topnav li a {
+  display: block;
+  color: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav li a:hover {
+  background-color: blue;
+}
+
+.topnav ul li a img { width: 35px; height: 35px; }
+
+body {
+  background-image: url("images/propercup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+h1 {
+  width: 300;
+  border: double;
+  padding: 25px;
+  margin: 25px;
+}

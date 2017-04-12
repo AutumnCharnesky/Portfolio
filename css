@@ -60,7 +60,6 @@ h1 {
   padding: 25px;
   margin: 25px;
   background-color: rgba(251, 231, 218, 0.81);
-  font-family: 'Syncopate', sans-serif;
 }
 
 .a {
@@ -75,18 +74,107 @@ h1 {
    background-color: rgba(251, 231, 218, 0.81);
  }
 
-body {
-  width: 1500;
+.Benaiah {
+  width: 240px;
 }
 
 .projects {
-  width: 500px;
-  float: left;
+  width: 240px;
+  height: 320px;
+  display: inline-block;
 }
 
-<link rel="stylesheet" type="text/css" href="media1.css" media="screen" />
+/*media2*/
+@media (max-width: 768px) {
+  h1 {
+    width: 200px;
+    border: double;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgba(251, 231, 218, 0.81);
+  }
 
-<link rel="stylesheet" type="text/css" href="media2.css" media="screen" />
+  h2 {
+    width: 70px;
+    height: 16px;
+    border: double;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgba(251, 231, 218, 0.81);
+  }
+
+  .Benaiah {
+    width: 120px;
+    height: 160px;
+  }
+
+  .projects {
+    width: 160px;
+    height: 213px;
+    display: inline-block;
+  }
+
+  .topnav {
+    overflow: auto;
+    height: inherit;
+  }
+}
+
+/*media3*/
+@media (max-width: 530px) {
+  .Benaiah {
+    width: 120px;
+    height: 160px;
+  }
+
+  .projects {
+    width: 120px;
+    height: 160px;
+    display: inline-block;
+  }
+
+  .topnav {
+    overflow: auto;
+    height: inherit;
+  }
+
+.topnav {
+  overflow: hidden;
+  height: auto;
+
+}
+
+.topnav li {
+  display: inline;
+  float: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: inherit;
+  overflow: auto;
+  background: rgba(251, 231, 218, 0.81);
+  border: double;
+  position: fixed;
+  top: 0;
+  width: 40px;
+}
+
+.topnav li a {
+  display: block;
+  color: rgba(159, 67, 9, 0.81);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav li a:hover {
+  background-color: rgba(174, 79, 19, 0.61);
+}
+
+.topnav ul li a img { width: 20px; height: 20px; } }
+
 
 
 </css>

@@ -2,9 +2,6 @@
 @media screen and (max-width: 1024px) {
 
 }
-.portraits {
-  border-radius: 50%;
-}
 
 /* topnav content */
 .topnav {
@@ -39,6 +36,10 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+/*.topnav li a:hover {
+  background-color: rgba(174, 79, 19, 0.61);
+}*/
 
 .topnav ul li a img { width: 50px; height: 50px; }
 

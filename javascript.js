@@ -6,9 +6,11 @@ $(document).ready(function() {
       .animate({opacity: 1});
     })
     })
-      $(".topnav").find("a").on("click", function() {
+      $(".topnav").find("a").on("click", "slow", function() {
         $(this).css({"backgroundColor": "rgba(159, 67, 9, 0.81)"})
     })
 
-    $(".topnav")
+    $(".topnav").click("slow", function() {
+      $(this).text("Clicked!");
+    })
 });

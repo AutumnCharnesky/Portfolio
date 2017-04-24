@@ -2,6 +2,9 @@
 @media screen and (max-width: 1024px) {
 
 }
+.portraits {
+  border-radius: 50%;
+}
 
 /* topnav content */
 .topnav {
